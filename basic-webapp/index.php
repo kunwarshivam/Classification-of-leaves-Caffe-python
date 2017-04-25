@@ -55,7 +55,7 @@ background-color: rgb(210,210,210);}
 <h1>Design of a Neural Network Model for Classification of Leaves</h1>
 <nav id="menu">
 <a href="index.html">Home </a>|
-<a href = "#github">GitHub Page</a>|
+<a href = "https://github.com/kunwarshivam/Classification-of-leaves-Caffe-python">GitHub Page</a>|
 <a href = "https://www.linkedin.com/in/kunwarshivam">LinkedIn: Kunwar Shivam Srivastav</a>|
 <a href = "https://www.linkedin.com/in/mathew-mithra-noel">LinkedIn: Mathew M. Noel</a>|
 </nav>
