@@ -1,0 +1,57 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+
+margin: 0;
+padding: 0;
+}
+.fix{
+  width: 100%;
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+}
+#menu a{
+  color: lightgray;
+  font-weight: bold;
+  margin-right: 5%;
+  border-style: solid;
+  border-color: lightgray;
+  padding: 0.5%;
+  border-radius: 15px;
+  text-decoration: none;
+}
+h1{
+  font-size: 35px;
+}
+#menu a:hover{
+   background-color: teal;
+   color:white;
+}
+#sec{
+  margin: 0% 15% 0% 15%;
+  text-align: center;
+}
+
+#data a{
+  text-decoration: none;
+  color: inherit;
+}
+#data a:hover{
+color: teal;
+}
+#data{
+  border-bottom: groove;
+}
+#sub:hover{
+background-color: teal;
+color: white;
+border-radius: 5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+img{
+  width: 10%;
+  bottom: 5px;
+  height: 15%;
+}

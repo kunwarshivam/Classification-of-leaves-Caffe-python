@@ -2,94 +2,44 @@
 <head>
 <title>Final Year Project-13BEE0084</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-html{
-height:100%;
-background: -webkit-linear-gradient(bottom right, teal, turquoise, white, cyan, cornflowerblue);
-background: -o-linear-gradient(bottom right, teal,turquoise, white,cyan, cornflowerblue);
-background: -moz-linear-gradient(bottom right, teal, turquoise, white, cyan, cornflowerblue);
-background: linear-gradient(to bottom right, teal, turquoise, white, cyan,cornflowerblue);
-}
-body{
-background-color: rgb(239, 240, 241);
-font-family: "Times New Roman", Georgia, Serif;
-border-style: groove;
-border-width: 15px 15px 15px 15px;
-margin: 0px 100px 0px 100px;
-padding: 0px 10px 0px 10px;
-height: 95%;
-
-}
-div.fix{
-border-bottom: solid;
-background-color: white;
-border-bottom-color: gray;
-border-top: solid;
-border-top-color: gray;
-text-align: center;
-height: 100px;
-}
-section{
-text-align: center;
-margin: 0px 0px 50px 0px;
-}
-#menu{
-width: 100%;
-border-style: solid;
-border-width: 1px 1px 1px 1px;
-text-align: center;
-}
-#sub:hover{
-background-color: teal;
-color: white;
-border-radius: 5px;
--moz-border-radius:5px;
--webkit-border-radius:5px;
-}
-a{
-text-decoration: none;
-color: black;
-
-}
-a:hover{
-background-color: rgb(210,210,210);}
-</style>
+<link rel="stylesheet" type="text/css" href="mycss.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
 </head>
 <body>
 
 <div class="fix">
-<img src="maple-leaf.jpg" style="width: 70px; height: 70px;float:left;">
+<br>
 <h1>Design of a Neural Network Model for Classification of Leaves</h1>
 <nav id="menu">
-<a href="index.html">Home </a>|
-<a href = "https://github.com/kunwarshivam/Classification-of-leaves-Caffe-python">GitHub Page</a>|
-<a href = "https://www.linkedin.com/in/kunwarshivam">LinkedIn: Kunwar Shivam Srivastav</a>|
-<a href = "https://www.linkedin.com/in/mathew-mithra-noel-18125794/">LinkedIn: Mathew M. Noel</a>|
+<a href="index.html">Home </a>
+<a href = "https://www.linkedin.com/in/mathew-mithra-noel-18125794/">LinkedIn: Mathew M. Noel</a>
+<a href = "https://www.linkedin.com/in/kunwarshivam">LinkedIn: Kunwar S. Srivastav</a>
+<a href = "https://github.com/kunwarshivam/Classification-of-leaves-Caffe-python">GitHub</a>
 </nav>
-</div>
-<section>
-<br><br><br>
 <br>
-<p id="project_details" style="text-align:left;">
+</div>
+<section id="sec">
+<p id="pro">
  This project,<b> Design of a Neural Network Model for Classification of Leaves</b>, has been completed by <em>13BEE0084, Kunwar Shivam Srivastav</em> as a part of final year project
 under the guidance of <em>Dr. Mathew M. Noel</em> of <em>School of Electrical Engineering(SELECT)</em> of <em>VIT University, Vellore.</em> <br>
-</p>
-<li style="text-align:left;">
-Datasets used:<br>
-<ol><a src="http://leafsnap.com/dataset/" style="text-decoration:underline;">LeafSnap-Dataset</a></ol>
-<ol><a src="http://cs-chan.com/downloads_MKLeaf_dataset.html" style="text-decoration:underline;">Malaykew Leaf Dataset</a></ol>
-</li>
-<p style="text-align:center;">
+<br></p>
+<p id="data">
+<b>Dataset used:</b><br>
+To go to the homepage of the dataset, click ->
+<a href="http://cs-chan.com/downloads_MKLeaf_dataset.html">Malaykew Leaf Dataset</a>
+<br><br></p>
+<p id="upload">
 Upload the image of leaf you want to classify.
-<form method="post" action="upload.php" enctype="multipart/form-data">
-<input type="file" name="fileToUpload" id="fileToUpload"/>
+<form method="post" name="form" action="upload.php"  enctype="multipart/form-data">
+<input type="file" name="fileToUpload" id="fileToUpload" required/>
 <input type="submit" name="submit" value="Upload" id="sub"/>
 </form>
+<br><br><br><br>
 </p>
-<br><br><br><br><br><br><br><br><br>
-<p style="border-style:solid;border-color:gray; ">
+<p id="ty">
 Thank You.
 </p>
+<img src="maple-leaf.jpg"/>
 </section>
 </body>
 </html>
