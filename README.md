@@ -12,6 +12,9 @@ If you are new to the field, here is a awesome tutorial: http://adilmoujahid.com
 
 Snapshot taken at 2500 iteration. 
 
-Goodluck!
+Since number of images in the dataset were not enough for me, I wrote a python script: *rotate.py* 
+Use it to generate more images by rotating all the images. 
+
+Good Luck!
 
 
