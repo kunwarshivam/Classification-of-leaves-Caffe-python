@@ -1,14 +1,3 @@
-'''
-Title           :make_predictions_1.py
-Description     :This script makes predictions using the 1st trained model and generates a submission file.
-Author          :Adil Moujahid
-Date Created    :20160623
-Date Modified   :20160625
-version         :0.2
-usage           :python make_predictions_1.py
-python_version  :2.7.11
-'''
-
 import os
 import glob
 import cv2
