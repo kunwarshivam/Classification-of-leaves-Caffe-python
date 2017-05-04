@@ -1,4 +1,4 @@
-
+th
 # Classification-of-leaves-Caffe-python
 B.Tech- Capstone Project. 13BEE0084- Kunwar Shivam Srivastav. VIT University. Project Guide: Dr. Mathew M Noel. 
 
@@ -12,7 +12,7 @@ If you are new to the field, here is a awesome tutorial: http://adilmoujahid.com
 
 Snapshot taken at 2500 iteration. 
 
-Since number of images in the dataset were not enough for me, I wrote a python script: *rotate.py* 
+Since the number of images in the dataset were not enough for me, I wrote a python script: *rotate.py* 
 Use it to generate more images by rotating all the images. 
 
 Good Luck!
