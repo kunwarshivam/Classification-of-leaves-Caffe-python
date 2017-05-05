@@ -8,8 +8,6 @@ Model trained on MalayaKew Dataset: http://www.cs-chan.com/downloads_MKLeaf_data
 
 CaffeNet- Pretrained: http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel
 
-If you are new to the field, here is a awesome tutorial: http://adilmoujahid.com/posts/2016/06/introduction-deep-learning-python-caffe/ 
-
 Snapshot taken at 2500 iteration. 
 
 Since the number of images in the dataset were not enough for me, I wrote a python script: *rotate.py* 
